@@ -28,15 +28,16 @@ export const Project = (): JSX.Element => {
       const data: Response = await fetch(
         `https://api.github.com/users/${userData.githubUser}/repos`
       )
+   
 
       const json = await data.json();
 
       setRepositories(json);
-
       if (!data.ok) {
         throw data;
       }
-
+      
+      console.log(json)
       return json;
     };
     fetchData();
@@ -70,7 +71,7 @@ export const Project = (): JSX.Element => {
             {repository.description}
           </Text>
           <ProjectLinks>
-            <ProjectLink target="_blank" href={repository.git_url}>
+            <ProjectLink target="_blank" onClick = {()=> console.log(repository.git_url.substring(6))} href={`https://${repository.git_url.substring(6)}`}>
               <FaGithub /> Github Code
             </ProjectLink>
             {repository.homepage && (
