@@ -23,6 +23,7 @@ import {
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
 } from "./style";
+import { Waves } from "@/components/waves";
 
 
 export const Home = (): JSX.Element => {
@@ -50,6 +51,7 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
+          <Waves></Waves>
       <StackSection id="tecnologias">
         <Container>
           <Text as="h4" type="heading3" color="grey1">
@@ -66,10 +68,10 @@ export const Home = (): JSX.Element => {
         <Container>
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
-              <Text as="h2" type="heading4" color="grey1">
+              <Text as="h2" type="heading4" color="grey6">
                 Vamos trocar uma ideia?
               </Text>
-              <Text as="p" type="body1" color="grey2">
+              <Text as="p" type="body1" color="grey6">
                 No linkedIn sempre estou compartilhando meus processos diários
                 para desenvolver esses projetos e estou disposto a trocar
                 algumas ideias por lá
@@ -84,12 +86,12 @@ export const Home = (): JSX.Element => {
               </Button>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
-              <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
+              <Text type="body1" color="grey6" css={{ marginBottom: "$2" }}>
                 Projetos
               </Text>
-              <Text as="h3" type="heading2" color="grey1">
+              <Text as="h3" type="heading2" color="grey6">
                 Originalidade e{" "}
-                <Text as="span" color="brand1" type="heading2">
+                <Text as="span" color="grey6" type="heading2">
                   dedicação
                 </Text>{" "}
                 em cada detalhe

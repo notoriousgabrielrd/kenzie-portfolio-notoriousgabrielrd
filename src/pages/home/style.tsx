@@ -5,7 +5,8 @@ import { Button } from "@/styles/Buttons";
 import img from "@/public/static/img/background/dots.svg";
 
 export const Header = styled("header", {
-  backgroundColor: "$brand1",
+  backgroundColor: "$grey1",
+  position: "relative",
   padding: "12rem 0 8rem 0",
   backgroundImage: `url(${img})`,
   backgroundRepeat: "no-repeat",
@@ -34,7 +35,7 @@ export const HeaderButtonsArea = styled(Flex, {
 });
 
 export const StackSection = styled("section", {
-  backgroundColor: "$grey4",
+  backgroundColor: "$grey1",
   padding: "4rem 0 2rem 0",
 });
 
@@ -54,6 +55,7 @@ export const StackCards = styled("div", {
 
 export const ProjectsArea = styled("section", {
   padding: "4rem 0 8rem 0",
+  backgroundColor: "$grey1",
 });
 
 export const ProjectsAreaSocialMediaMessage = styled("aside", {

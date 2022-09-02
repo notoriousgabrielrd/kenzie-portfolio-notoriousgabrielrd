@@ -4,6 +4,12 @@ import { Text } from "../../styles/Text"
 
 export const Project = styled("article", {
   marginTop: "4rem",
+
+  "& p": {
+    color: "$grey6",
+    borderColor:"$grey6",
+    borderRadius: "$2",
+  },
 });
 
 export const ProjectStack = styled(Flex, {
@@ -11,10 +17,17 @@ export const ProjectStack = styled(Flex, {
 });
 
 export const ProjectStackTech = styled("span", {
-  backgroundColor: "$brand4",
-  color: "$brand2",
+  backgroundColor: "$grey1",
+
   padding: "0  0.5rem",
-  borderRadius: "$2",
+  // borderRadius: "$2",
+  borderColor:"$grey6",
+
+  "& p": {
+    color: "$grey6",
+    borderColor:"$grey6",
+    borderRadius: "$2",
+  },
 });
 
 export const ProjectLinks = styled(Flex, {
@@ -23,7 +36,7 @@ export const ProjectLinks = styled(Flex, {
 
 export const ProjectLink = styled("a", {
   fontSize: "1rem",
-  color: "$grey2",
+  color:"$grey6",
   fontWeight: "500",
   marginRight: "$2",
   display: "flex",

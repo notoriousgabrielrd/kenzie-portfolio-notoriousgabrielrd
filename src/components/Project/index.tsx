@@ -51,7 +51,7 @@ export const Project = (): JSX.Element => {
             as="h2"
             type="heading3"
             css={{ marginBottom: "$3" }}
-            color="grey1"
+            color="grey6"
           >
             {repository.name}
           </Text>
@@ -67,7 +67,7 @@ export const Project = (): JSX.Element => {
             </ProjectStack>
           )}
 
-          <Text type="body1" color="grey2">
+          <Text type="body1" color="grey6">
             {repository.description}
           </Text>
           <ProjectLinks>
