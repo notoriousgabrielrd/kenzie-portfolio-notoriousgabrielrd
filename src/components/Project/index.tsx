@@ -37,7 +37,6 @@ export const Project = (): JSX.Element => {
         throw data;
       }
       
-      console.log(json)
       return json;
     };
     fetchData();
