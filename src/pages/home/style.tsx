@@ -44,7 +44,7 @@ export const StackCards = styled("div", {
   gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
   padding: "3rem 0",
   gap: "2rem",
-
+  color:"$grey1",
   "@mobile": {
     display: "flex",
     marginInline: "-1rem",

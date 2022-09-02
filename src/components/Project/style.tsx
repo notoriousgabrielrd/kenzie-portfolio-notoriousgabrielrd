@@ -20,7 +20,7 @@ export const ProjectStackTech = styled("span", {
   backgroundColor: "$grey1",
 
   padding: "0  0.5rem",
-  // borderRadius: "$2",
+  borderRadius: "$2",
   borderColor:"$grey6",
 
   "& p": {
@@ -44,7 +44,8 @@ export const ProjectLink = styled("a", {
   lineHeight: "0",
 
   "&:hover":{
-    color: "$grey1"
+    color: "$brand1"
+  
   },
 
   [`& svg`]: {

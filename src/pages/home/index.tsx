@@ -51,10 +51,10 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
-          <Waves></Waves>
+          {/* <Waves></Waves> */}
       <StackSection id="tecnologias">
         <Container>
-          <Text as="h4" type="heading3" color="grey1">
+        <Text as="h2" type="heading4" color="grey6">
             Ferramentas que domino
           </Text>
           <StackCards>

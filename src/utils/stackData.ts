@@ -1,39 +1,30 @@
-import imgHTML from "../public/static/img/stack/html.svg";
-import imgCSS from "../public/static/img/stack/css.svg";
-import imgJS from "../public/static/img/stack/js.svg";
-import imgNode from "../public/static/img/stack/node.svg";
-import imgStyled from "../public/static/img/stack/styled.svg";
-import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import { FaNode, FaPython, FaReact, FaVuejs } from "react-icons/fa";
+import { SiAmazonaws, SiCss3, SiDjango, SiJest, SiJirasoftware, SiJsonwebtokens, SiPostgresql, SiSqlite, SiStyledcomponents, SiTypescript } from "react-icons/si";
+import { DiJavascript1, DiLinux, DiMongodb } from "react-icons/di";
 import { FaDocker } from "react-icons/fa";
+import {AiFillGithub, AiFillHtml5, AiFillWindows} from "react-icons/ai"
+
+
+
 
 export const stackData = [
-  {
-    title: "HTML",
-    img: imgHTML,
-  },
-  {
-    title: "CSS",
-    img: imgCSS,
-  },
-  {
-    title: "JS",
-    img: imgJS,
-  },
-  {
-    title: "Node JS",
-    img: imgNode,
-  },
-  {
-    title: "Styled Components",
-    img: imgStyled,
-  },
-  {
-    title: "React",
-    img: imgReact,
-  },
-  { title: "Vuejs", img: FaVuejs },
-  { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
+  {title: "HTML",img: AiFillHtml5,},{title: "CSS",img: SiCss3,},
+  {title: "JS", img: DiJavascript1, },
+  {title: "Node JS", img: FaNode, },
+  {title: "Styled Components",  img: SiStyledcomponents,},
+  {title: "React",img: FaReact,},
+  {title: "Jest",img: SiJest,},
+  {title: "JsonWebToken", img:SiJsonwebtokens},
+  {title: "GitHub", img:AiFillGithub},
+  {title: "Python", img: FaPython },
+  {title:"Django", img:SiDjango},
+  {title:"MongoDB", img:DiMongodb},
+  {title:"SQlite", img:SiSqlite},
+  {title:"AmazonAWS", img:SiAmazonaws},
+  {title:"PostgreSQL", img:SiPostgresql},
+  {title: "TypeScript", img: SiTypescript },
+  {title: "Docker", img: FaDocker },
+  {title: "Metodologias Ágeis", img:SiJirasoftware},
+  {title: "Linux", img:DiLinux},
+  {title: "Windows", img:AiFillWindows},
 ];
